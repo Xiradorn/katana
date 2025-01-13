@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+@theme {
+	--font-quig: 'Qwigley', handwriting;
+	--font-sans: 'Noto Sans', Arial, sans-serif;
+
+	--color-primary: var(--color-lime-500);
+
+	--color-first-shadow: oklch(73.32% 0.077 134.97);
+	--color-second-shadow: oklch(64.4% 0.1007 138.26);
+	--color-katana: oklch(18.19% 0.0136 187.44);
+
+	--background-image-katana-img: url('/assets/images/katana.webp');
+	--background-image-dark-lines: url('/assets/images/darkBg.jpg');
+}
