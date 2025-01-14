@@ -302,7 +302,7 @@ watch(
 						<img
 							:src="website.image"
 							:alt="website.name"
-							class="aspect-[16/9] object-cover object-center w-full h-80 rounded"
+							class="aspect-[16/9] object-cover object-center !w-full !h-full rounded"
 						/>
 					</div>
 
@@ -332,7 +332,7 @@ watch(
 						:src="website.image"
 						:alt="website.name"
 						:class="[
-							'aspect-[16/9] object-cover object-center w-full h-48 rounded',
+							'aspect-[16/9] object-cover object-center !w-full !h-full rounded',
 							{ 'blur-xs saturate-0': website.death }
 						]"
 					/>

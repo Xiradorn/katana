@@ -9,7 +9,8 @@
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
 		"lint": "eslint .",
-		"lint:fix": "eslint . --fix"
+		"lint:fix": "eslint . --fix",
+		"ghpages": "nuxt build --preset github_pages"
 	},
 	"dependencies": {
 		"@nuxt/image": "1.9.0",
