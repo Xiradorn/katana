@@ -277,16 +277,18 @@ watch(
 </script>
 
 <template>
-	<div class="p-20 grid grid-cols-3 gap-10">
+	<div
+		class="p-2 md:p-5 lg:p-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+	>
 		<div
 			v-for="website in websites"
 			:key="website.name"
-			:class="[{ 'col-span-3': website.full }]"
+			:class="[{ 'md:col-span-2 lg:col-span-3': website.full }]"
 		>
 			<div v-if="website.full">
 				<button
 					:class="[
-						'w-full flex items-center justify-center',
+						'w-full flex flex-col md:flex-row items-center justify-center',
 						{ 'cursor-pointer': !website.death || !website.coming }
 					]"
 					@click="
@@ -298,7 +300,7 @@ watch(
 						}
 					"
 				>
-					<div class="w-1/2">
+					<div class="w-full md:w-1/2">
 						<img
 							:src="website.image"
 							:alt="website.name"
@@ -306,7 +308,7 @@ watch(
 						/>
 					</div>
 
-					<div class="w-1/2">
+					<div class="w-full md:w-1/2">
 						<h2 class="font-quig text-9xl">{{ website.name }}</h2>
 						<p class="uppercase">{{ website.description }}</p>
 					</div>
