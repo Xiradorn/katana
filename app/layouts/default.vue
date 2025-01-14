@@ -15,7 +15,7 @@
 			class="max-w-full bg-katana-img h-screen bg-cover bg-center flex flex-col items-center justify-center"
 		>
 			<h1
-				class="font-quig text-[15rem] md:text-[20rem] lg:text-[30rem] text-katana japanese leading-52"
+				class="font-quig text-[12rem] md:text-[20rem] lg:text-[30rem] text-katana japanese leading-52"
 				style="
 					text-shadow:
 						1px 1px var(--color-first-shadow),

@@ -352,9 +352,26 @@ watch(
 		<UModal
 			v-model:open="activatron.open"
 			:title="activatron.selected?.name"
-			class="min-w-[90vw] min-h-[90vh] overflow-hidden"
+			:ui="{
+				content:
+					'overflow-hidden min-w-[90vw] max-w-[90vw] max-h-[90vh]'
+			}"
 		>
 			<template #content>
+				<div class="absolute p-2 right-0 bg-lime-400 rounded-bl-lg">
+					<UButton
+						icon="i-heroicons-x-mark-20-solid"
+						class="cursor-pointer"
+						size="lg"
+						@click="
+							() => {
+								activatron.open = false
+								activatron.selected = undefined
+							}
+						"
+					/>
+				</div>
+
 				<iframe
 					:src="activatron.selected?.url"
 					class="w-full h-screen"
