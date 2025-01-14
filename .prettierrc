@@ -1,0 +1,10 @@
+{
+	"chartset": "utf-8",
+	"semi": false,
+	"singleQuote": true,
+	"endOfLine": "lf",
+	"useTabs": true,
+	"tabWidth": 4,
+	"trailingComma": "none",
+	"htmlWhitespaceSensitivity": "ignore"
+}
