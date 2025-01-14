@@ -10,7 +10,8 @@
 		"postinstall": "nuxt prepare",
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix",
-		"ghpages": "nuxt build --preset github_pages"
+		"ghpages": "nuxt build --preset github_pages",
+		"gh:pages": "NUXT_APP_BASE_URL=/katana/ npx nuxt build --preset github_pages"
 	},
 	"dependencies": {
 		"@nuxt/image": "1.9.0",
