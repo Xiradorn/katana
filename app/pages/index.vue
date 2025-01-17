@@ -15,6 +15,30 @@ interface Website {
 
 <script setup lang="ts">
 // Nuxt, Seo & Config
+useHead({
+	title: 'Katana'
+})
+
+useSeoMeta({
+	title: 'Katana - Xiradorn Lab Repo',
+	ogTitle: 'Katana - Xiradorn Lab Repo',
+	description: 'Official NEW Repo - Xiradorn Lab - Xiradorn 2009',
+	ogDescription: 'Official NEW Repo - Xiradorn Lab - Xiradorn 2009',
+	ogUrl: useRequestURL().href,
+	ogSiteName: 'Katana - Xiradorn Lab Repo',
+	ogLocale: 'it',
+	ogType: 'website',
+	twitterCard: 'summary_large_image',
+	ogImage: {
+		url: `${useRuntimeConfig().public.webBase}/bkkatanaweb.webp`,
+		alt: 'Xiradorn Lab Social',
+		width: 1920,
+		height: 1080
+	},
+	twitterTitle: 'Katana - Xiradorn Lab Repo',
+	twitterDescription: 'Official NEW Repo - Xiradorn Lab - Xiradorn 2009',
+	twitterImage: `${useRuntimeConfig().public.webBase}/bkkatanaweb.webp`
+})
 // Props & Emits
 // Services & Apis
 // Refs & Reactives
