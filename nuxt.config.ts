@@ -29,6 +29,10 @@ export default defineNuxtConfig({
 	},
 
 	app: {
+		baseURL: '/katana/',
+
+		buildAssetsDir: '__xir',
+
 		head: {
 			htmlAttrs: {
 				lang: 'it'
