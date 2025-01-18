@@ -254,24 +254,24 @@ const websites = shallowRef<Website[]>([
 
 		{
 			slug: 'xiradorn',
-			name: 'xiradorn',
-			description: 'Coming Soon',
+			name: 'Coming Soon',
+			description: 'Xiradorn Lab',
 			url: '',
 			image: imgs.xiradorn,
 			coming: true
 		},
 		{
 			slug: 'xiradorn',
-			name: 'xiradorn',
-			description: 'Coming Soon',
+			name: 'Coming Soon',
+			description: 'Xiradorn Lab',
 			url: '',
 			image: imgs.xiradorn,
 			coming: true
 		},
 		{
 			slug: 'xiradorn',
-			name: 'xiradorn',
-			description: 'Coming Soon',
+			name: 'Coming Soon',
+			description: 'Xiradorn Lab',
 			url: '',
 			image: imgs.xiradorn,
 			coming: true
