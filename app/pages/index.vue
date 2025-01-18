@@ -20,7 +20,7 @@ useHead({
 })
 
 useSeoMeta({
-	title: 'Katana - Xiradorn Lab Repo',
+	title: 'Katana',
 	ogTitle: 'Katana - Xiradorn Lab Repo',
 	description: 'Official NEW Repo - Xiradorn Lab - Xiradorn 2009',
 	ogDescription: 'Official NEW Repo - Xiradorn Lab - Xiradorn 2009',
