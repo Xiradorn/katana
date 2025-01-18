@@ -30,14 +30,14 @@ useSeoMeta({
 	ogType: 'website',
 	twitterCard: 'summary_large_image',
 	ogImage: {
-		url: `${useRuntimeConfig().public.webBase}/bkkatanaweb.webp`,
+		url: `${useRuntimeConfig().public.webBase}/bgkatanaweb.webp`,
 		alt: 'Xiradorn Lab Social',
 		width: 1920,
 		height: 1080
 	},
 	twitterTitle: 'Katana - Xiradorn Lab Repo',
 	twitterDescription: 'Official NEW Repo - Xiradorn Lab - Xiradorn 2009',
-	twitterImage: `${useRuntimeConfig().public.webBase}/bkkatanaweb.webp`
+	twitterImage: `${useRuntimeConfig().public.webBase}/bgkatanaweb.webp`
 })
 // Props & Emits
 // Services & Apis
