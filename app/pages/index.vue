@@ -302,7 +302,7 @@ watch(
 
 <template>
 	<div
-		class="p-2 md:p-5 lg:p-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+		class="grid grid-cols-1 gap-10 p-2 md:grid-cols-2 md:p-5 lg:grid-cols-3 lg:p-20"
 	>
 		<div
 			v-for="website in websites"
@@ -312,7 +312,7 @@ watch(
 			<div v-if="website.full">
 				<button
 					:class="[
-						'w-full flex flex-col md:flex-row items-center justify-center',
+						'flex w-full flex-col items-center justify-center md:flex-row',
 						{ 'cursor-pointer': !website.death || !website.coming }
 					]"
 					@click="
@@ -328,7 +328,7 @@ watch(
 						<img
 							:src="website.image"
 							:alt="website.name"
-							class="aspect-[16/9] object-cover object-center !w-full !h-full rounded"
+							class="aspect-[16/9] !h-full !w-full rounded object-cover object-center"
 						/>
 					</div>
 
@@ -358,13 +358,13 @@ watch(
 						:src="website.image"
 						:alt="website.name"
 						:class="[
-							'aspect-[16/9] object-cover object-center !w-full !h-full rounded',
+							'aspect-[16/9] !h-full !w-full rounded object-cover object-center',
 							{ 'blur-xs saturate-0': website.death }
 						]"
 					/>
 
 					<div class="mt-4">
-						<h2 class="font-quig text-6xl -mb-4">
+						<h2 class="-mb-4 font-quig text-6xl">
 							{{ website.name }}
 						</h2>
 						<p class="uppercase">{{ website.description }}</p>
@@ -382,7 +382,7 @@ watch(
 			}"
 		>
 			<template #content>
-				<div class="absolute p-2 right-0 bg-lime-400 rounded-bl-lg">
+				<div class="absolute right-0 rounded-bl-lg bg-lime-400 p-2">
 					<UButton
 						icon="i-heroicons-x-mark-20-solid"
 						class="cursor-pointer"
@@ -398,7 +398,7 @@ watch(
 
 				<iframe
 					:src="activatron.selected?.url"
-					class="w-full h-screen"
+					class="h-screen w-full"
 				/>
 			</template>
 		</UModal>

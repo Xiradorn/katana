@@ -10,12 +10,12 @@
 </script>
 
 <template>
-	<UContainer class="!p-0 !m-0 max-w-full">
+	<UContainer class="!m-0 max-w-full !p-0">
 		<div
-			class="max-w-full bg-katana-img h-screen bg-cover bg-center flex flex-col items-center justify-center"
+			class="flex h-screen max-w-full flex-col items-center justify-center bg-katana-img bg-cover bg-center"
 		>
 			<h1
-				class="font-quig text-[12rem] md:text-[20rem] lg:text-[30rem] text-katana japanese leading-52"
+				class="japanese font-quig text-[12rem] leading-52 text-katana md:text-[20rem] lg:text-[30rem]"
 				style="
 					text-shadow:
 						1px 1px var(--color-first-shadow),
@@ -25,7 +25,7 @@
 				Katana
 			</h1>
 			<h4
-				class="text-2xl md:text-3xl font-jura uppercase font-light japanese"
+				class="font-jura japanese text-2xl font-light uppercase md:text-3xl"
 				style="
 					text-shadow:
 						1px 1px var(--color-first-shadow),
@@ -39,7 +39,7 @@
 		<slot />
 
 		<footer
-			class="max-w-full bg-katana-img px-10 py-10 bg-cover bg-center flex items-center justify-center bg-katana bg-blend-color-dodge"
+			class="flex max-w-full items-center justify-center bg-katana bg-katana-img bg-cover bg-center px-10 py-10 bg-blend-color-dodge"
 		>
 			<h1 class="text-lime-50">
 				Copyright @ Xiradorn Lab - Sir xiradorn | 2009 -
