@@ -14,18 +14,19 @@
 		"gh:pages:pub": "npx gh-pages --dotfiles -d .output/public"
 	},
 	"dependencies": {
-		"@nuxt/image": "1.9.0",
-		"@nuxt/ui": "3.0.0-alpha.11",
+		"@nuxt/image": "2.0.0",
+		"@nuxt/ui": "4.2.1",
 		"gh-pages": "^6.3.0",
-		"nuxt": "^3.15.2",
-		"serve": "^14.2.4",
-		"vue": "latest",
-		"vue-router": "latest"
+		"nuxt": "^4.2.1",
+		"serve": "^14.2.5",
+		"vue": "^3.5.25",
+		"vue-router": "^4.6.3"
 	},
 	"devDependencies": {
-		"@nuxt/eslint": "^0.7.5",
-		"eslint": "^9.17.0",
-		"prettier": "^3.4.2",
-		"typescript": "^5.7.3"
-	}
+		"@nuxt/eslint": "^1.11.0",
+		"eslint": "^9.39.1",
+		"prettier": "^3.6.2",
+		"typescript": "^5.9.3"
+	},
+	"packageManager": "pnpm@9.10.0+sha256.355a8ab8dbb6ad41befbef39bc4fd6b5df85e12761d2724bd01f13e878de4b13"
 }
